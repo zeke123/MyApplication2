@@ -20,15 +20,11 @@ public class MainActivity extends Activity {
     private long mStartLoadingTime = -1;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
-
-      Button start = (Button)findViewById(R.id.start);
-
+        Button start = (Button)findViewById(R.id.start);
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -37,7 +33,6 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(MainActivity.this,SecondActivity.class));
             }
         });
-
 
 
         final   PtrFrameLayout   mPtrFrameLayout = (PtrFrameLayout)findViewById(R.id.material_style_ptr_frame);
@@ -54,7 +49,7 @@ public class MainActivity extends Activity {
         mPtrFrameLayout.setDurationToCloseHeader(1500);
         mPtrFrameLayout.setHeaderView(header);
         mPtrFrameLayout.addPtrUIHandler(header);
-      /*  mPtrFrameLayout.postDelayed(new Runnable() {
+       /*  mPtrFrameLayout.postDelayed(new Runnable() {
             @Override
             public void run() {
                 mPtrFrameLayout.autoRefresh(false);
