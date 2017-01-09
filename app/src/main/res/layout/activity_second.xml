@@ -5,8 +5,6 @@
     android:layout_height="match_parent"
     android:background="#ffffff">
 
-
-
      <in.srain.cube.views.ptr.PtrClassicFrameLayout
          xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
          android:id="@+id/fragment_rotate_header_with_text_view_frame"
@@ -20,11 +18,11 @@
          cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
          cube_ptr:ptr_resistance="1.7">
 
+
          <TextView
              android:id="@+id/fragment_rotate_header_with_text_view_content"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-
              android:background="#2175ed"
              android:clickable="true"
              android:gravity="center"
@@ -33,7 +31,5 @@
              android:textSize="30sp"/>
 
      </in.srain.cube.views.ptr.PtrClassicFrameLayout>
-
-
 
 </RelativeLayout>

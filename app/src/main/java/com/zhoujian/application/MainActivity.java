@@ -12,9 +12,7 @@ import in.srain.cube.views.ptr.util.PtrLocalDisplay;
 
 public class MainActivity extends Activity {
 
-
     //下拉刷新框架android-Ultra-Pull-To-Refresh
-
 
     private boolean mImageHasLoaded = false;
     private long mStartLoadingTime = -1;
@@ -82,5 +80,4 @@ public class MainActivity extends Activity {
             }
         });
     }
-
 }
