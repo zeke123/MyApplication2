@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/zhoujian/AndroidStudioProjects/MyApplication2/ptr-demo/build/intermediates/res/merged/debug/drawable-xxxhdpi/sky.png",
+        "source": "/Users/zhoujian/AndroidStudioProjects/MyApplication2/ptr-demo/res/drawable-xxxhdpi/sky.png"
+    },
+    {
+        "merged": "/Users/zhoujian/AndroidStudioProjects/MyApplication2/ptr-demo/build/intermediates/res/merged/debug/drawable-xxxhdpi/sun.png",
+        "source": "/Users/zhoujian/AndroidStudioProjects/MyApplication2/ptr-demo/res/drawable-xxxhdpi/sun.png"
+    },
+    {
+        "merged": "/Users/zhoujian/AndroidStudioProjects/MyApplication2/ptr-demo/build/intermediates/res/merged/debug/drawable-xxxhdpi/buildings.png",
+        "source": "/Users/zhoujian/AndroidStudioProjects/MyApplication2/ptr-demo/res/drawable-xxxhdpi/buildings.png"
+    }
+]
